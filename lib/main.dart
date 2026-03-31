@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:foodapp/screens/home_screen/home_screen.dart';
 
 import 'auth/sign_in.dart';
 import 'firebase_options.dart';
@@ -41,7 +42,8 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SignIn(),
+      home:HomeScreen(),
+      //SignIn(),
     );
   }
 }

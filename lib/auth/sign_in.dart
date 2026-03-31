@@ -101,6 +101,8 @@ class _SignInState extends State<SignIn> {
 
                     if (user != null) {
                       debugPrint("User signed in: ${user.displayName}");
+                      
+
                     }
                   },
                 ),
